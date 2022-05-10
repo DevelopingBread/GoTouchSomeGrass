@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Go touch some grass</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id='center'>
+    <h1>Go touch some grass kid</h1>
+    <img src='https://media.istockphoto.com/photos/close-up-of-green-grass-with-white-background-picture-id174670507?b=1&k=20&m=174670507&s=170667a&w=0&h=UMKzoTNxIMpOtdHfKF28XYSsN4uRf5IRIbT9YpVr6-Q='>
+    <br>
+    <button onclick="RandomWebsite()">Click me for revenge</button>
+    <script>
+      function RandomWebsite() {
+        let links = ['https://www.youtube.com', 'https://www.google.com']
+        let linkN = Math.floor(Math.random() * links.length);
+        window.location.replace(links[linkN])
+      }
+    </script>
+  </div>
+</body>
+
+</html>
